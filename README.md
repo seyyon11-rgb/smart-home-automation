@@ -133,7 +133,7 @@ This project helped in understanding:
 smart-home-automation/
 │── smart_home_automation.ino
 │── README.md
-│── circuit.png
+
 ```
 
 ## Student Details

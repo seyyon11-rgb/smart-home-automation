@@ -19,13 +19,13 @@ char pass[] = "aot96";
 DHT dht(DHTPIN, DHTTYPE);
 BlynkTimer timer;
 
-// 📱 Mobile switch control
+//  Mobile switch control
 BLYNK_WRITE(V0) {
   int value = param.asInt();   // 0 or 1
   digitalWrite(LED_PIN, value);
 }
 
-// 🌡️ Send sensor data
+// Send sensor data
 void sendData() {
   float temp = dht.readTemperature();
   float hum = dht.readHumidity();
@@ -44,7 +44,7 @@ void sendData() {
   Blynk.virtualWrite(V1, temp);
   Blynk.virtualWrite(V2, hum);
 
-  // 🔥 Auto control (optional)
+  //  Auto control 
   if (temp > 30) {
     digitalWrite(LED_PIN, HIGH);
   }

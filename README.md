@@ -138,7 +138,7 @@ smart-home-automation/
 
 ## Student Details
 
-Name: B AVINAH
+Name: B AVINASH
 Year: First Year
 Domain: IoT / Embedded Systems / Smart Home Automation
 

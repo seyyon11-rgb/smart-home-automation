@@ -131,8 +131,9 @@ This project helped in understanding:
 
 ```text
 smart-home-automation/
-│── smart_home_automation.ino
 │── README.md
+│── smart home automation.ino
+│── project circuit.png
 
 ```
 
